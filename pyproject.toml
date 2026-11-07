@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oci-custom-image-audit"
+version = "0.1.0"
+description = "Offline auditor for simplified OCI custom compute image inventories"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+oci-custom-image-audit = "oci_custom_image_audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
