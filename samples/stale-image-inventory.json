@@ -1,0 +1,59 @@
+{
+  "reference_time": "2026-11-08T00:00:00Z",
+  "images": [
+    {
+      "name": "web-base-v3",
+      "operating_system": "Oracle Linux",
+      "operating_system_version": "6.10",
+      "created_at": "2025-04-15T09:30:00Z",
+      "size_gb": 47,
+      "launch_mode": "PARAVIRTUALIZED",
+      "tags": {"owner": "web-team"}
+    },
+    {
+      "name": "web-base-v2",
+      "operating_system": "Oracle Linux",
+      "operating_system_version": "7.9",
+      "created_at": "2025-06-01T09:30:00Z",
+      "size_gb": 46,
+      "launch_mode": "PARAVIRTUALIZED",
+      "tags": {"owner": "web-team"}
+    },
+    {
+      "name": "web-base-v1",
+      "operating_system": "Oracle Linux",
+      "operating_system_version": "7.9",
+      "created_at": "2025-05-01T09:30:00Z",
+      "size_gb": 46,
+      "launch_mode": "PARAVIRTUALIZED",
+      "tags": {"owner": "web-team"}
+    },
+    {
+      "name": "web-base-v0",
+      "operating_system": "Oracle Linux",
+      "operating_system_version": "7.9",
+      "created_at": "2025-03-01T09:30:00Z",
+      "size_gb": 46,
+      "launch_mode": "PARAVIRTUALIZED",
+      "tags": {"owner": "web-team"}
+    },
+    {
+      "name": "legacy-batch-v2",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "created_at": "2024-08-20T14:00:00Z",
+      "size_gb": 512,
+      "launch_mode": "EMULATED",
+      "tags": {}
+    },
+    {
+      "name": "api-gold-v8",
+      "operating_system": "Oracle Linux",
+      "operating_system_version": "8.10",
+      "created_at": "2026-10-25T06:00:00Z",
+      "size_gb": 48,
+      "launch_mode": "PARAVIRTUALIZED",
+      "tags": {"owner": "platform-team"}
+    }
+  ]
+}
